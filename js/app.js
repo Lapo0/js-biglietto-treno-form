@@ -3,6 +3,8 @@ const firstName = document.getElementById('first-name')
 const lastName = document.getElementById('last-name')
 console.log(firstName, lastName)
 
+
+
 // CHILOMETRI DA PERCORRERE
 const distanza = document.querySelector('.container .distanza')
 console.log(distanza)
@@ -11,9 +13,7 @@ console.log(distanza)
 const formBtnElement = document.querySelector('.container input[type="button"]')
 
 formBtnElement.addEventListener('click', function () {
-	console.log('applica modifiche al box')
-
-
+console.log('applica modifiche al box')
 
 
 // PREZZO BASE BIGLIETTO
@@ -29,14 +29,14 @@ console.log(selectEtaElement)
 
 let eta = selectEtaElement.value
 
-const prezzoFinale = prezzoBase - sconto
+let prezzoFinale = prezzoBase
 
     switch (eta) {
         case 'minorenne':
             prezzoFinale = prezzoBase * 0.8
             break
         case 'maggiorenne':
-            sconto = prezzoBase
+            prezzoFinale = prezzoBase
             break
         case 'over65':
             prezzoFinale = prezzoBase * 0.6
@@ -46,3 +46,6 @@ const prezzoFinale = prezzoBase - sconto
     console.log(prezzoFinale)
 
 })
+
+// Mandare a schermo Nome e Cognome
+
