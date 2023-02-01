@@ -1,0 +1,80 @@
+.gray-bg{
+    background-color: #979797;
+}
+
+.gray-tx{
+    color: #979797;;
+}
+
+.main_ticket{
+    background-color: #E8E8E8 !important;
+}
+
+.header_ticket{
+    background-color: #B00000;
+}
+
+.date .btn{
+    font-size: 9px;
+}
+
+.send .btn{
+    font-size: 12px;
+}
+
+img{
+    width: 100%;
+}
+
+.my-container{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 200px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.name-client{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid  #D81B36;
+    border-radius: 25px 00 25px;
+    border-bottom: 0;
+    font-weight: bold;
+}
+
+.logo{
+    width: 40%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.my-container .js {
+    border: 5px solid green;
+    padding: 1em 2em;
+    border-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+#prezzo-finale{
+    border-radius: 0 0 25px 0;
+}
+
+#chilometri{
+    border-radius: 0 25px 0 0;
+    border: 5px solid  #D81B36;
+    border-top: 0;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding: 1em;
+}
+
+.qr-code{
+    width: 150px;
+}

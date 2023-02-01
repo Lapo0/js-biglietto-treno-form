@@ -60,12 +60,6 @@ let prezzoFinale = prezzoBase
 
     const prezzoFinaleElement = document.querySelector('.prezzo-finale');
     prezzoFinaleElement.textContent = prezzoFinale;
-
-
-    
-    // Mandare a schermo Nome e Cognome
-    
-
 })
 
 
